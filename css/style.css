@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Courgette&family=Dancing+Script:wght@500&family=Edu+SA+Beginner&family=Libre+Baskerville&family=Permanent+Marker&family=Playfair+Display:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+
+}
+
+body{
+    transition: 0.5s;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 30rem;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+button{
+    margin-top: 5px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    font-size: 35px;
+    cursor: pointer;
+}
